@@ -23,8 +23,7 @@ export const SidebarData = [
           icon: <IoIcons.IoIosPaper />
        },
      ]
-  },
-  port const SidebarData = [
+  }, 
   {
      title: "Reports",
      path: "/reports",
@@ -55,4 +54,4 @@ export const SidebarData = [
      icon: <FaIcons.FaCartPlus />
   }
  
-]
+];
