@@ -27,9 +27,10 @@ export const SidebarData = [
   {
      title: "Reports",
      path: "/reports",
-     icon: <AiIcons.AiFillHome />,
+     icon: <AiIcons.AiFillFolderOpen />,
      iconClosed: <RiIcons.RiArrowDownSFill />,
      iconOpened: <RiIcons.RiArrowUpSFill />,
+
      subNav: [
        {
           title: "Reports 1",
@@ -52,6 +53,11 @@ export const SidebarData = [
      title: "Products",
      path: "/products",
      icon: <FaIcons.FaCartPlus />
+  },
+  {
+     title: "About",
+     path: "/about",
+     icon: <FaIcons.FaWpforms />
   }
  
 ];
